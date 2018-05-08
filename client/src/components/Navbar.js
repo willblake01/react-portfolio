@@ -4,7 +4,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <header id="masthead">
-    <div class="container">
+    <div className="container">
       <a href="index.html" id="logo">William Blake</a>
       <nav>
         <a href="index.html">About</a>

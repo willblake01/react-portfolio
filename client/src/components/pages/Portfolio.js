@@ -10,7 +10,7 @@ class Portfolio extends React.Component {
       <div>
         <ReactHeader />
         <Navbar />
-        <Sidebar />
+        {/* <Sidebar /> */}
         <p>Portfolio</p>
         <Footer />
       </div>
