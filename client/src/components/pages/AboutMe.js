@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactHeader from '../ReactHeader';
+import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
+import Footer from '../Footer';
+import ProfilePic from '../ProfilePic';
 
 class AboutMe extends React.Component {
   render() {
     return (
       <div>
         <ReactHeader />
+        <Navbar />
+        <Sidebar />
 				<h1>About Me</h1>
-
+        <ProfilePic />
 				<p class='bio'>	William Blake is a Web Developer with 12 years of experience in Business
 				Administration. He was born and raised in Austin, TX but enjoys traveling and the great
 				diversity of the United States. He holds a Full-Stack Web Developer certification from The
@@ -24,6 +30,7 @@ class AboutMe extends React.Component {
 				Spanish, running marathons, and trying not to fall down on the soccer field. He is currently
 				working on coding a website to showcase his many hobbies. You can reach him at
 				willblakebooking@gmail.com or on Twitter at @trill_will.</p>
+        <Footer />
       </div>
     );
   }
