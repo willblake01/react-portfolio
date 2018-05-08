@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './styles/images/logo.svg';
-import './styles/css/index.css';
+import logo from '../styles/images/logo.svg';
+import '../styles/css/index.css';
 
-class App extends Component {
+class ReactHeader extends React.Component {
   render() {
     return (
       <div className="App">
@@ -18,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default ReactHeader;
