@@ -62,7 +62,7 @@ h3 {
 }
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 310px;
 }
 
 .main-section {
@@ -73,6 +73,14 @@ h3 {
   margin: 0 0 140px;
   background: #fff;
   border: 1px solid #ddd;
+}
+
+.profile-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
 #contact-form ul {
@@ -128,7 +136,6 @@ input[type=submit] {
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
 }
 
 .work h3 {
@@ -142,7 +149,7 @@ input[type=submit] {
   color: #fff;
   text-align: center;
   background: #934A5F;
-  opacity: 0.92;
+  opacity: 0.86;
   border-bottom: 0;
 }
 
@@ -155,6 +162,9 @@ input[type=submit] {
 }
 
 .App {
+  position: fixed;
+  z-index: 98;
+  width: 100%;
   text-align: center;
 }
 
@@ -190,7 +200,7 @@ input[type=submit] {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 185px 0 30px;
   overflow: auto;
   color: #E5E5E5;
   background: #E5E5E5;
