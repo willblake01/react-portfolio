@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from '../store';
-import Landing from './pages/Landing';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Landing from './Landing';
+import About from './About';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 const Router = () => (
   <Provider store={store}>

@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactHeader from '../ReactHeader';
-import Navbar from '../Navbar';
-import Sidebar from '../Sidebar';
-import Footer from '../Footer';
+import ReactHeader from './ReactHeader';
+import Navbar from './Navbar';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 
 class Contact extends React.Component {
   render() {

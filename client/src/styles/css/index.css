@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   max-width: none;
   width: 100%;
@@ -161,7 +165,7 @@ input[type=submit] {
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 185px;
   padding: 20px;
   color: white;
 }
@@ -191,6 +195,7 @@ input[type=submit] {
   color: #E5E5E5;
   background: #E5E5E5;
   border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
 }
 
 #logo {

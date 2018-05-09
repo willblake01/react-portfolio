@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactHeader from '../ReactHeader';
-import Navbar from '../Navbar';
-import Sidebar from '../Sidebar';
-import Footer from '../Footer';
-import ProfilePic from '../ProfilePic';
+import ReactHeader from './ReactHeader';
+import Navbar from './Navbar';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
+import ProfilePic from './ProfilePic';
 
 class About extends React.Component {
   render() {
