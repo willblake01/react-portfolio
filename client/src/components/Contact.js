@@ -10,7 +10,6 @@ class Contact extends React.Component {
       <div>
         <ReactHeader />
         <Navbar />
-        {/* <Sidebar /> */}
         <div id='main-container' class='container'>
           <section class='main-section'>
             <h1>Contact</h1>
@@ -31,9 +30,10 @@ class Contact extends React.Component {
               </ul>
               <input type='submit' />
             </form>
-            <Footer />
           </section>
+          <Sidebar />
         </div>
+        <Footer />
       </div>
     );
   }

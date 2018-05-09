@@ -3,7 +3,9 @@ import React from 'react';
 class Landing extends React.Component {
   render() {
     return (
-      <p>Hello World!</p>
+      <div className='masthead'>
+
+      </div>
     );
   }
 }

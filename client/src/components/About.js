@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container, Columns, Column } from "../components/grid";
 import ReactHeader from './ReactHeader';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
@@ -11,7 +12,6 @@ class About extends React.Component {
 			<div>
 				<ReactHeader />
 				<Navbar />
-				{/* <Sidebar /> */}
 				<div id='main-container' class='container'>
 					<section class='main-section'>
 					<h1>About Me</h1>
@@ -34,6 +34,7 @@ class About extends React.Component {
 					willblakebooking@gmail.com or on Twitter at @trill_will.</p>
 					<Footer />
 					</section>
+					<Sidebar />
 				</div>
 			</div>
     );

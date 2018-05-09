@@ -23,7 +23,6 @@ class Portfolio extends React.Component {
       <div>
         <ReactHeader />
         <Navbar />
-        {/* <Sidebar /> */}
         <div id="main-container" class="container">
           <section class="main-section">
             <h1>Portfolio</h1>
@@ -119,6 +118,7 @@ class Portfolio extends React.Component {
               <h3>Hangman</h3>
             </div>
           </section>
+          <Sidebar />
         </div>
         <Footer />
       </div>
