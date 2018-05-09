@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Columns, Column } from "../components/grid";
 import ReactHeader from './ReactHeader';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';

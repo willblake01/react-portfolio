@@ -1,12 +1,11 @@
 import React from 'react';
-import About from './About';
 
 class Navbar extends React.Component {
   render() {
     return (
-      <header id="masthead">
-        <div className="container">
-          <a href="index.html" id="logo">William Blake</a>
+      <header id='masthead'>
+        <div className='container'>
+          <a href='index.html' id='logo'>William Blake</a>
           <nav>
             <a href='/about'>About</a>
             <a href='/portfolio'>Portfolio</a>

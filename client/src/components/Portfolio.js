@@ -23,97 +23,97 @@ class Portfolio extends React.Component {
       <div>
         <ReactHeader />
         <Navbar />
-        <div id="main-container" class="container">
-          <section class="main-section">
+        <div id='main-container' class='container'>
+          <section class='main-section'>
             <h1>Portfolio</h1>
 
-            <div class="work">
-              <a href="https://businessplanner.herokuapp.com/" target="_blank">
-                <img src={HotSpotr} alt="Hot Spotr" />
+            <div class='work'>
+              <a href='https://businessplanner.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                <img src={HotSpotr} alt='Hot Spotr' />
               </a>
               <h3>Hot Spotr</h3>
             </div>
 
-            <div class="work">
-              <a href="https://rangefront.herokuapp.com/" target="_blank">
-                <img src={RangeFront} alt="Range Front" />
+            <div class='work'>
+              <a href='https://rangefront.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                <img src={RangeFront} alt='Range Front' />
               </a>
               <h3>Range Front</h3>
             </div>
 
-            <div class="work">
-              <a href="https://bit-bay-group.github.io/BitBay/" target="_blank">
-                <img src={BitBay} alt="Bit Bay" />
+            <div class='work'>
+              <a href='https://bit-bay-group.github.io/BitBay/' target='_blank' rel='noopener noreferrer'>
+                <img src={BitBay} alt='Bit Bay' />
               </a>
               <h3>BitBay</h3>
             </div>
 
-            <div class="work">
-              <a href="https://burger-time-fullstack.herokuapp.com/" target="_blank">
-                <img src={Memory} alt="Memory" />
+            <div class='work'>
+              <a href='https://burger-time-fullstack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                <img src={Memory} alt='Memory' />
               </a>
               <h3>Memory</h3>
             </div>
 
-            <div class="work">
-              <a href="https://burger-time-fullstack.herokuapp.com/" target="_blank">
-                <img src={NewsScraper} alt="News Scraper" />
+            <div class='work'>
+              <a href='https://burger-time-fullstack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                <img src={NewsScraper} alt='News Scraper' />
               </a>
               <h3>News Scraper</h3>
             </div>
 
-            <div class="work">
-              <a href="https://burger-time-fullstack.herokuapp.com/" target="_blank">
-                <img src={BurgerTime} alt="Burger Time" />
+            <div class='work'>
+              <a href='https://burger-time-fullstack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                <img src={BurgerTime} alt='Burger Time' />
               </a>
               <h3>Burger Time</h3>
             </div>
 
-            <div class="work">
-              <a href="https://friend-finder-full-stack.herokuapp.com/" target="_blank">
-                <img src={FriendFinder} alt="Friend Finder" />
+            <div class='work'>
+              <a href='https://friend-finder-full-stack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                <img src={FriendFinder} alt='Friend Finder' />
               </a>
               <h3>Friend Finder</h3>
             </div>
 
-            <div class="work">
-              <a href="https://github.com/WillBlake01/Bamazon" target="_blank">
-                <img src={Bamazon} alt="Bamazon" />
+            <div class='work'>
+              <a href='https://github.com/WillBlake01/Bamazon' target='_blank' rel='noopener noreferrer'>
+                <img src={Bamazon} alt='Bamazon' />
               </a>
               <h3>Bamazon</h3>
             </div>
 
-            <div class="work">
-              <a href="https://github.com/WillBlake01/Liri-Bot" target="_blank">
-                <img src={LiriBot} alt="Liribot" />
+            <div class='work'>
+              <a href='https://github.com/WillBlake01/Liri-Bot' target='_blank' rel='noopener noreferrer'>
+                <img src={LiriBot} alt='Liribot' />
               </a>
               <h3>LiriBot</h3>
             </div>
 
-            <div class="work">
-              <a href="https://willblake01.github.io/" target="_blank">
-                <img src={TrainTime} alt="Train Time" />
+            <div class='work'>
+              <a href='https://willblake01.github.io/' target='_blank' rel='noopener noreferrer'>
+                <img src={TrainTime} alt='Train Time' />
               </a>
               <h3>Train Time</h3>
             </div>
 
-            <div class="work">
-              <a href="https://willblake01.github.io/TriviaGame/" target="_blank">
-                <img src={Trivia} alt="Trivia" />
+            <div class='work'>
+              <a href='https://willblake01.github.io/TriviaGame/' target='_blank' rel='noopener noreferrer'>
+                <img src={Trivia} alt='Trivia' />
               </a>
               <h3>Trivia</h3>
             </div>
 
-            <div class="work">
-              <a href="https://willblake01.github.io/Crystal-Collector/" target="_blank">
-                <img src={CrystalCollector} alt="Crystal Collector" />
+            <div class='work'>
+              <a href='https://willblake01.github.io/Crystal-Collector/' target='_blank' rel='noopener noreferrer'>
+                <img src={CrystalCollector} alt='Crystal Collector' />
               </a>
               <h3>Crystal Collector</h3>
             </div>
 
-            <div class="work">
-              <a href="https://willblake01.github.io/Hangman-Game/" target="_blank">
-                <img src={Hangman} alt="Hangman" />
+            <div class='work'>
+              <a href='https://willblake01.github.io/Hangman-Game/' target='_blank' rel='noopener noreferrer'>
+                <img src={Hangman} alt='Hangman' />
               </a>
               <h3>Hangman</h3>
             </div>
