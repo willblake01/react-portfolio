@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 
 class Navbar extends React.Component {
   render() {
@@ -7,9 +8,9 @@ class Navbar extends React.Component {
         <div className="container">
           <a href="index.html" id="logo">William Blake</a>
           <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <a href='/about'>About</a>
+            <a href='/portfolio'>Portfolio</a>
+            <a href='/contact'>Contact</a>
           </nav>
         </div>
       </header>
