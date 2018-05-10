@@ -3,7 +3,7 @@ import React from 'react';
 class Navbar extends React.Component {
   render() {
     return (
-      <header id='masthead'>
+      <header id='masthead-navbar'>
         <div className='container'>
           <a href='index.html' id='logo'>William Blake</a>
           <nav>

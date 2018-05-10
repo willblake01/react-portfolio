@@ -7,7 +7,7 @@ import Footer from './Footer';
 class Contact extends React.Component {
   render() {
     return (
-      <div>
+      <div className='masthead'>
         <ReactHeader />
         <Navbar />
         <div id='main-container' class='container'>

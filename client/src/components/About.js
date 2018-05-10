@@ -8,7 +8,7 @@ import ProfilePic from './ProfilePic';
 class About extends React.Component {
   render() {
     return (
-			<div>
+			<div className='masthead'>
 				<ReactHeader />
 				<Navbar />
 				<div id='main-container' class='container'>

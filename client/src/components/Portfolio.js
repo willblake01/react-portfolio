@@ -20,7 +20,7 @@ import Hangman from '../styles/images/hangman.png';
 class Portfolio extends React.Component {
   render() {
     return (
-      <div>
+      <div className='masthead'>
         <ReactHeader />
         <Navbar />
         <div id='main-container' class='container'>
