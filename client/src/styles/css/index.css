@@ -308,5 +308,18 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 120px;
   width: 100%;
+}
+
+.social-media {
+  text-align: right;
+}
+
+.social-icon {
+  position: relative;
+  height: 40px;
+  margin-right: 8px;
+  right: 10px;
+  bottom: 30px;
 }
