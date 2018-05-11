@@ -91,7 +91,7 @@ class Portfolio extends React.Component {
             </div>
 
             <div class='work'>
-              <a href='https://willblake01.github.io/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://willblake01.github.io/train-time/' target='_blank' rel='noopener noreferrer'>
                 <img src={TrainTime} alt='Train Time' />
               </a>
               <h3>Train Time</h3>
