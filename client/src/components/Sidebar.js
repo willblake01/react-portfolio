@@ -9,7 +9,7 @@ class Sidebar extends React.Component {
       <section className='sidebar'>
       <div id='connect'>
           <h2>Connect with Me</h2>
-          <a href='https://github.com/WillBlake01' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/willblake01' target='_blank' rel='noopener noreferrer'>
             <img src={GitHub} className='social' alt='GitHub' />
           </a>
           <a href='https://www.linkedin.com/in/william-blake/' target='_blank'
