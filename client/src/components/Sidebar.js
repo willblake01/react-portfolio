@@ -10,9 +10,9 @@ class Sidebar extends React.Component {
       <div id='connect'>
         <h2>Connect with Me</h2>
 
-        <a href='https://github.com/WillBlake01'><img src={GitHub} className='social' alt='GitHub' /></a>
-        <a href='https://www.linkedin.com/in/william-blake/'><img src={LinkedIn} className='social' alt='LinkedIn' /></a>
-        <a href='https://stackoverflow.com/users/8656082/william-blake?tab=profile'><img src={StackOverflow} className='social' alt='Stack Overflow' /></a>
+        <a href='https://github.com/WillBlake01' target='_blank'><img src={GitHub} className='social' alt='GitHub' /></a>
+        <a href='https://www.linkedin.com/in/william-blake/' target='_blank'><img src={LinkedIn} className='social' alt='LinkedIn' /></a>
+        <a href='https://stackoverflow.com/users/8656082/william-blake?tab=profile' target='_blank'><img src={StackOverflow} className='social' alt='Stack Overflow' /></a>
       </div>
     </section>
     );
