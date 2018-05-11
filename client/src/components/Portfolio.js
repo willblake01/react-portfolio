@@ -77,14 +77,14 @@ class Portfolio extends React.Component {
             </div>
 
             <div class='work'>
-              <a href='https://github.com/WillBlake01/Bamazon' target='_blank' rel='noopener noreferrer'>
+              <a href='https://github.com/willblake01/Bamazon' target='_blank' rel='noopener noreferrer'>
                 <img src={Bamazon} alt='Bamazon' />
               </a>
               <h3>Bamazon</h3>
             </div>
 
             <div class='work'>
-              <a href='https://github.com/WillBlake01/liri-bot' target='_blank' rel='noopener noreferrer'>
+              <a href='https://github.com/willblake01/liri-bot' target='_blank' rel='noopener noreferrer'>
                 <img src={LiriBot} alt='Liribot' />
               </a>
               <h3>LiriBot</h3>
