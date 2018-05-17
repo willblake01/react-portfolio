@@ -11,8 +11,8 @@ class About extends React.Component {
 			<div className='masthead'>
 				<ReactHeader />
 				<Navbar />
-				<div id='main-container' class='container'>
-					<section class='main-section'>
+				<div id='main-container' className='container'>
+					<section className='main-section'>
 					<h1>About Me</h1>
 					<ProfilePic />
 					<p className='bio'>	William Blake is a Web Developer with 12 years of experience in Business
