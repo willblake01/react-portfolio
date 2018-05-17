@@ -20,11 +20,33 @@
 
 .content-landing {
   position: relative;
+  height: 760px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.copy {
+  position: relative;
 }
 
 #headline {
-  position: relative;
-  top: 80px;
-  left: 80px;
+  top: 120px;
   font-size: 6vw;
+}
+
+#about-landing {
+  top: 200px;
+  font-size: 2vw;
+}
+
+#learn-more {
+  width: 240px;
+  margin: 0 auto;
+  top: 300px;
+}
+
+#down-arrow {
+  width: 20px;
+  margin: 0 auto;
+  top: 300px;
 }
