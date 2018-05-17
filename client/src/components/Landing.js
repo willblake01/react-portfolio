@@ -1,4 +1,5 @@
 import React from 'react';
+import MernLogos from './MernLogos';
 
 class Landing extends React.Component {
   render() {
@@ -7,6 +8,7 @@ class Landing extends React.Component {
         <div className='wrapper-landing'>
             <div className='content-landing'>
               <div id='headline'>...and there is a way!</div>
+              <MernLogos />
             </div>
         </div>
       </div>
