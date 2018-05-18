@@ -28,14 +28,14 @@ class Portfolio extends React.Component {
             <h1>Portfolio</h1>
 
             <div className='work'>
-              <a href='https://businessplanner.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://hotspotr.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
                 <img src={HotSpotr} alt='Hot Spotr' />
               </a>
               <h3>Hot Spotr</h3>
             </div>
 
             <div className='work'>
-              <a href='https://rangefront.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://range-front.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
                 <img src={RangeFront} alt='Range Front' />
               </a>
               <h3>Range Front</h3>
