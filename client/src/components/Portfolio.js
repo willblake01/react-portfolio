@@ -56,7 +56,7 @@ class Portfolio extends React.Component {
             </div>
 
             <div className='work'>
-              <a href='https://burger-time-fullstack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://news-scraper-fullstack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
                 <img src={NewsScraper} alt='News Scraper' />
               </a>
               <h3>News Scraper</h3>
