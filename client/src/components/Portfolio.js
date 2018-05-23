@@ -7,7 +7,7 @@ import HotSpotr from '../styles/images/hotspotr.png';
 import RangeFront from '../styles/images/range-front.png';
 import BitBay from '../styles/images/bitbay.png';
 import Memory from '../styles/images/hotspotr.png';
-import NewsScraper from '../styles/images/hotspotr.png';
+import NewsScraper from '../styles/images/news-scraper.png';
 import BurgerTime from '../styles/images/hotspotr.png';
 import FriendFinder from '../styles/images/friend-finder.png';
 import Bamazon from '../styles/images/bamazon.png';
