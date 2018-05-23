@@ -8,7 +8,7 @@ import RangeFront from '../styles/images/range-front.png';
 import BitBay from '../styles/images/bitbay.png';
 import Memory from '../styles/images/hotspotr.png';
 import NewsScraper from '../styles/images/news-scraper.png';
-import BurgerTime from '../styles/images/hotspotr.png';
+import BurgerTime from '../styles/images/burger-time.png';
 import FriendFinder from '../styles/images/friend-finder.png';
 import Bamazon from '../styles/images/bamazon.png';
 import LiriBot from '../styles/images/liri-bot.png';
