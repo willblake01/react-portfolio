@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn start
+  /usr/local/bin/node /usr/local/bin/yarn build
 
 PATH: 
-  /Users/williamblake/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/williamblake/.composer/vendor/bin
+  /Users/williamblake/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 Yarn version: 
   1.5.1
@@ -7532,7 +7532,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c react-scripts start
+  Arguments: -c react-scripts build
   Directory: /Users/williamblake/Desktop/react-portfolio
   Output:
   
