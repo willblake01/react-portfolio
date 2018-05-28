@@ -28,7 +28,7 @@ class Contact extends React.Component {
                   <textarea id='message' name='message' required='required'></textarea>
                 </li>
               </ul>
-              <input type='submit' onClick={() => '/contact/create' />
+              <input type='submit' />
             </form>
           </section>
           <Sidebar />
