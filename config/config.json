@@ -15,10 +15,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "33354af4",
-    "password": "zardpdcw5z",
+    "username": "	nlhjrw6ntx9zxsbw",
+    "password": "v0k68kek1hcx91bn",
     "database": "contact",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "port": 3306
   }
 }
