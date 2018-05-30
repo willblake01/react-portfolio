@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body": "^5.1.0",
+    "concurrently": "^3.5.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
@@ -16,9 +17,18 @@
     "sequelize": "^4.37.7"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "server": "node server.js",
+    "client": "cd client && npm run start",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
+    "installDeps": "yarn && cd client && yarn",
+    "sass": "sass --watch src/styles/scss:src/styles/css"
+  },
+  "main": "server.js",
+  "repository": "https://github.com/WillBlake01/react-portfolio.git",
+  "author": "William Blake <willblakebooking@gmail.com>",
+  "license": "MIT"
 }
