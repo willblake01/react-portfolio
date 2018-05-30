@@ -2,7 +2,7 @@ Arguments:
   /usr/local/bin/node /usr/local/bin/yarn build
 
 PATH: 
-  /Users/williamblake/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  /Users/williamblake/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/williamblake/.composer/vendor/bin
 
 Yarn version: 
   1.5.1
