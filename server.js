@@ -1,13 +1,16 @@
 require ('dotenv').config();
 const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3001;
 const path = require('path');
-
 const morgan = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const session = require('express-session');
+
+// Set up port to be either the host's designated port, or 3001
+const PORT = process.env.PORT || 3001;
+
+// Instantiate Express App
+const app = express();
 
 // Import sequelize models
 const db = require('./models');

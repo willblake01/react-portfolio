@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "root",
-    "database": "project3",
+    "database": "contact",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "port": 3306
@@ -15,10 +15,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "root",
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "u85qduhowjodykv5",
+    "password": "e2rlyhdyrtvogktm",
+    "database": "xgxq89tabpk2za72",
+    "host": "k9xdebw4k3zynl4u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "port": 3306
   }
 }
