@@ -7,7 +7,6 @@ class Landing extends React.Component {
       <div className='masthead'>
         <div className='wrapper-landing'>
             <div className='content-landing'>
-              <div className='copy' id='headline'>...and there is a way!</div>
               <div className='copy' id='about-landing'>Hi, I'm Will. I'm a Full-Stack developer
               from Austin, TX. I focus on MERN stack applications but my knowledge base spans way
               beyond that, just ask!</div>
