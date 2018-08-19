@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body": "^5.1.0",
+    "chai": "^4.1.2",
     "concurrently": "^3.5.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
@@ -19,7 +20,8 @@
     "react-router-redux": "^4.0.8",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
-    "sequelize": "^4.37.7"
+    "sequelize": "^4.37.7",
+    "supertest": "^3.1.0"
   },
   "scripts": {
     "server": "node server.js",
@@ -27,7 +29,7 @@
     "start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "build": "cd client && npm run build",
     "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test/test.js",
     "eject": "react-scripts eject",
     "installDeps": "yarn && cd client && yarn",
     "sass": "sass --watch src/styles/scss:src/styles/css"
