@@ -3,6 +3,9 @@
   "description": "MERN stack portfolio",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "body": "^5.1.0",
