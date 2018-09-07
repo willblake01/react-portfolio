@@ -3,13 +3,12 @@ import { createStore } from 'redux';
 //Import the root reducer
 import rootReducer from './reducers/index';
 
-import comments from './data/comments';
-import posts from './data/posts';
+import contacts from './data/contacts';
+import messages from './data/messages';
 
 //Create an object for the default data
 const defaultState = {
-    posts = [],
-    comments = []
+    profile
 };
 
 const store = createStore(rootReducer, defaultState);
