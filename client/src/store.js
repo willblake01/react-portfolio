@@ -3,8 +3,7 @@ import { createStore } from 'redux';
 //Import the root reducer
 import rootReducer from './reducers/index';
 
-import contacts from './data/contacts';
-import messages from './data/messages';
+import profile from './reducers/contactMe';
 
 //Create an object for the default data
 const defaultState = {
