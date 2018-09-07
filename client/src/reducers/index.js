@@ -2,8 +2,8 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
 
-import posts from '../data/messages';
-import comments from '../data/contacts';
+import contacts from '../data/contacts';
+import messages from '../data/messages';
 
 const rootReducer = combineReducers({ contacts, messages, routing: routerReducer });
 
