@@ -20,7 +20,7 @@ textarea {
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--body-border);
 }
 
 textarea {
@@ -30,8 +30,8 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
-  background: #57648C;
+  background: var(--dark-blue);
   border: 0 none;
 }
