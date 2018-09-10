@@ -4,10 +4,10 @@
   width: 100%;
   margin: 185px 0 30px;
   overflow: auto;
-  color: #E5E5E5;
-  background: #E5E5E5;
-  border-bottom: 2px solid #ccc;
-  border-top: 2px solid #ccc;
+  color: var(--navbar-footer-gray);
+  background: var(--navbar-footer-gray);
+  border-bottom: 2px solid var(--border-gray);
+  border-top: 2px solid var(--border-gray);
 }
 
 #logo {
@@ -18,10 +18,10 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   text-decoration: none;
-  background: #57648C;
+  background: var(--dark-blue);
 }
 
 nav {
@@ -34,9 +34,9 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: var(--dark-gray);
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  border-left: 1px solid var(--dark-gray);
 }
 
 nav a:first-child {

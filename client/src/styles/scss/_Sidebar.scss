@@ -4,8 +4,8 @@
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: var(--body-background);
+  border: 1px solid var(--body-border);
 }
 
 h3,
