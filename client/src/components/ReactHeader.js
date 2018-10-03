@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../styles/images/logo.svg';
 import '../styles/css/index.css';
 
 class ReactHeader extends React.Component {
@@ -7,7 +6,7 @@ class ReactHeader extends React.Component {
     return (
       <div className='App'>
         <header className='App-header'>
-          <img src={logo} className='App-logo' alt='logo' />
+          <img src='https://res.cloudinary.com/willblake01/image/upload/v1538510164/react-portfolio/logo.svg' className='App-logo' alt='logo' />
           <h1 className='App-title'>Welcome to My React Portfolio</h1>
         </header>
       </div>
