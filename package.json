@@ -1,13 +1,17 @@
 {
   "name": "portfolio",
-  "description": "MERN stack portfolio",
+  "description": "This is my developer portfolio built with React view, Node back-end, and Express server.",
+  "main": "server.js",
   "version": "0.1.0",
   "engines": {
-    "node": "10.9.0"
+    "node": "10.9.0",
+    "npm": "6.4.1"
   },
   "private": true,
   "devDependencies": {
-    "browser-sync": "^2.24.7"
+    "browser-sync": "^2.24.7",
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -32,7 +36,8 @@
   "scripts": {
     "server": "node server.js",
     "client": "cd client && npm run start",
-    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "start": "concurrently \"pm2-runtime start ecosystem.config.js --env production\" \"npm run client\"",
+    "dev-start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "build": "cd client && npm run build",
     "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
     "test": "mocha test/test.js",
@@ -40,7 +45,6 @@
     "installDeps": "yarn && cd client && yarn",
     "sass": "sass --watch src/styles/scss:src/styles/css"
   },
-  "main": "server.js",
   "repository": "https://github.com/WillBlake01/react-portfolio.git",
   "author": "William Blake <willblakebooking@gmail.com>",
   "license": "MIT"
