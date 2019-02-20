@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider, injectGlobal } from 'styled-components'
 import Meta from './Meta';
-import Footer from './Footer';
 
 
 const theme = {
@@ -57,7 +56,6 @@ class Page extends Component {
         <StyledPage>
           <Meta />
             <Inner>{this.props.children}</Inner>
-          <Footer />
         </StyledPage>
       </ThemeProvider>
     );
