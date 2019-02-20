@@ -11,10 +11,10 @@
     --light-purple: #C2B4D6;
     --body-border: #DDDDDD;
     --body-background: #FFFFFF; }
-  
+
   * {
     box-sizing: border-box; }
-  
+
   body {
     max-width: none;
     width: 100%;
@@ -26,16 +26,16 @@
     line-height: 34px;
     color: var(--white);
     background: url("https://res.cloudinary.com/willblake01/image/upload/v1538510160/react-portfolio/concrete-seamless.png"); }
-  
+
   a:hover {
     color: var(--hover-blue); }
-  
+
   .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both; }
-  
+
   h1,
   h2,
   h3,
@@ -145,6 +145,7 @@
     margin: 0 auto; }
   
   .copy {
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     position: relative;
