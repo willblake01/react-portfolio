@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import MernLogos from './MernLogos';
 
 class Landing extends React.Component {
@@ -10,7 +11,9 @@ class Landing extends React.Component {
               <div className='copy' id='about-landing'>Hi, I'm Will, a Full-Stack developer
               from Austin, TX. I focus on MERN stack applications but my knowledge base spans way
               beyond that, just ask!</div>
-              <div className='copy' id='learn-more'>Learn more about what I do</div>
+              <Link href='/about'>
+                <div className='copy' id='learn-more'>Learn more about what I do</div>
+              </Link>
               <div className='copy' id='down-arrow'><a href='/about'>&or;</a></div>
               <MernLogos />
             </div>
