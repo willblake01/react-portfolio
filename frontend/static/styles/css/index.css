@@ -66,14 +66,14 @@
     font-size: 22px; }
   
   #main-container {
-    padding-top: 310px; }
+    padding-top: 278px; }
   
   .main-section {
     float: left;
     width: 100%;
     max-width: 650px;
     padding: 30px;
-    margin: 0 0 150px;
+    margin: 30px 0 150px;
     background: var(--body-background);
     border: 1px solid var(--body-border); }
   
@@ -145,7 +145,7 @@
     margin: 0 auto; }
   
   .copy {
-    color: #FFFFFF;
+    color: var(--white);
     display: flex;
     justify-content: center;
     position: relative;
@@ -232,7 +232,7 @@
     position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 185px 0 30px;
+    margin: 185px 0 0;
     overflow: auto;
     color: var(--navbar-footer-gray);
     background: var(--navbar-footer-gray);
@@ -273,7 +273,7 @@
     width: 100%;
     max-width: 270px;
     padding: 30px;
-    margin-bottom: 20px;
+    margin: 30px 0 0;
     background: var(--body-background);
     border: 1px solid var(--body-border); }
   
