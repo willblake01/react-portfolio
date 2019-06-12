@@ -14,17 +14,17 @@ class Portfolio extends React.Component {
             <h1>Portfolio</h1>
 
             <div className="work">
-              <a href="https://hotspotr.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <img src='https://res.cloudinary.com/willblake01/image/upload/v1538510162/react-portfolio/hotspotr.png' alt="Hot Spotr" />
-              </a>
-              <h3>Hot Spotr</h3>
-            </div>
-
-            <div className="work">
               <a href="https://range-front.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <img src='https://res.cloudinary.com/willblake01/image/upload/v1538510166/react-portfolio/range-front.png' alt="Range Front" />
               </a>
               <h3>Range Front</h3>
+            </div>
+
+            <div className="work">
+              <a href="https://hotspotr.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <img src='https://res.cloudinary.com/willblake01/image/upload/v1538510162/react-portfolio/hotspotr.png' alt="Hot Spotr" />
+              </a>
+              <h3>Hot Spotr</h3>
             </div>
 
             <div className="work">

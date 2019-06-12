@@ -1,13 +1,13 @@
 .mern-logos {
-    display: inline-flex;
-    position: absolute;
-    width: 1000px;
-    justify-content: space-between;
-    bottom: 10px;
-  }
-  
-  .mern-icon {
-    position: relative;
-    height: 30px;
-  }
-  
+  height: 1.875rem;
+  display: inline-flex;
+  position: fixed;
+  width: 62.5rem;
+  justify-content: space-between;
+  bottom: 0.625rem;
+}
+
+.mern-icon {
+  position: relative;
+  height: 1.875rem;
+}
