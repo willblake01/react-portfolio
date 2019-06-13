@@ -388,7 +388,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://res.cloudinary.com/willblake01/image/upload/v1538510162/react-portfolio/hotspotr.png",
+        src: "https://res.cloudinary.com/willblake01/image/upload/v1560441472/react-portfolio/memory.png",
         alt: "Memory",
         __source: {
           fileName: _jsxFileName,
