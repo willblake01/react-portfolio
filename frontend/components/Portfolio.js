@@ -36,7 +36,7 @@ class Portfolio extends React.Component {
 
             <div className="work">
               <a href="https://memory-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <img src='https://res.cloudinary.com/willblake01/image/upload/v1538510162/react-portfolio/hotspotr.png' alt="Memory" />
+                <img src='https://res.cloudinary.com/willblake01/image/upload/v1560441472/react-portfolio/memory.png' alt="Memory" />
               </a>
               <h3>Memory</h3>
             </div>
