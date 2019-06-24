@@ -686,12 +686,12 @@ var SocialMedia = function SocialMedia(props) {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_bcbf8b70159d73cc91e6 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_114c37924188cb7dc18b ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_bcbf8b70159d73cc91e6 */ "dll-reference dll_bcbf8b70159d73cc91e6"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_114c37924188cb7dc18b */ "dll-reference dll_114c37924188cb7dc18b"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -779,7 +779,7 @@ var AboutPage = function AboutPage(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -793,16 +793,16 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_bcbf8b70159d73cc91e6":
+/***/ "dll-reference dll_114c37924188cb7dc18b":
 /*!*******************************************!*\
-  !*** external "dll_bcbf8b70159d73cc91e6" ***!
+  !*** external "dll_114c37924188cb7dc18b" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_bcbf8b70159d73cc91e6;
+module.exports = dll_114c37924188cb7dc18b;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
