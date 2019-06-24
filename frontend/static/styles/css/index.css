@@ -13,10 +13,6 @@
   --body-background: #FFFFFF;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 16px;
 }
@@ -28,9 +24,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 34px;
-  color: var(--white);
   background: url("https://res.cloudinary.com/willblake01/image/upload/v1538510160/react-portfolio/concrete-seamless.png");
 }
 
@@ -158,6 +151,8 @@ input[type=submit] {
   z-index: 0;
   display: block;
   background-image: url("https://res.cloudinary.com/willblake01/image/upload/v1538510164/react-portfolio/landing-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -173,6 +168,10 @@ input[type=submit] {
   height: 67.5rem;
   width: 75rem;
   margin: 0 auto;
+}
+
+.copy a {
+  color: var(--white);
 }
 
 .copy {
@@ -195,9 +194,11 @@ input[type=submit] {
 }
 
 #down-arrow {
+  color: var(--white);
+  font-size: 3rem;
   width: 1.25rem;
   margin: 0 auto;
-  top: 33.75rem;
+  top: 33.125rem;
 }
 
 .work {
@@ -361,9 +362,9 @@ footer {
 }
 
 .social-icon {
-  position: relative;
+  position: block;
   height: 40px;
-  margin-right: 8px;
+  margin-right: 10px;
   right: 10px;
   bottom: 30px;
 }
