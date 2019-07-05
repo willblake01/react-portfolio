@@ -779,7 +779,7 @@ var AboutPage = function AboutPage(props) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -804,5 +804,5 @@ module.exports = dll_114c37924188cb7dc18b;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
