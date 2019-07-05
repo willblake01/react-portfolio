@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-frontend",
   "version": "1.0.0",
-  "description": "the backend of will blake's react portfolio",
+  "description": "the frontend of Will Blake's react portfolio",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 7777",
