@@ -201,6 +201,36 @@ input[type=submit] {
   top: 33.125rem;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.featured {
+  position: relative;
+  width: 100%;
+  margin: 20px 0 25px;
+}
+.featured img {
+  width: 100%;
+  border: 0 none;
+}
+.featured h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: var(--body-background);
+  text-align: center;
+  background: var(--dark-purple);
+  opacity: 0.86;
+  border-bottom: 0;
+}
+
 .work {
   position: relative;
   float: left;
@@ -208,16 +238,10 @@ input[type=submit] {
   margin: 20px 0 25px;
   overflow: auto;
 }
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
 .work img {
   width: 100%;
   border: 0 none;
 }
-
 .work h3 {
   position: absolute;
   bottom: 20px;
@@ -233,12 +257,8 @@ input[type=submit] {
   border-bottom: 0;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
 .App {
@@ -343,8 +363,11 @@ h3,
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: right;
   padding: 30px 0;
-  clear: both;
   font-size: 12px;
   color: var(--dark-gray);
   text-align: center;
@@ -353,20 +376,22 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 120px;
+  height: 100px;
+  width: 100%;
+}
+footer .container {
+  height: 100%;
   width: 100%;
 }
 
 .social-media {
   text-align: right;
+  height: 40px;
 }
 
 .social-icon {
-  position: block;
-  height: 40px;
-  margin-right: 10px;
-  right: 10px;
-  bottom: 30px;
+  height: 100%;
+  margin-right: 20px;
 }
 
 .mern-logos {

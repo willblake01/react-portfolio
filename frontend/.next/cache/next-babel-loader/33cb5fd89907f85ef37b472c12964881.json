@@ -1,1 +1,0 @@
-{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Portfolio from '../components/Portfolio';\n\nconst PortfolioPage = props => __jsx(React.Fragment, null, __jsx(Portfolio, null));\n\nexport default PortfolioPage;","map":null,"metadata":{},"sourceType":"module"}

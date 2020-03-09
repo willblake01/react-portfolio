@@ -1,1 +1,0 @@
-{"ast":null,"code":"export const endpoint = `http://localhost:4444`;\nexport const prodEndpoint = `https://rangefront-yoga-prod.herokuapp.com/`;\nexport const perPage = 4;","map":null,"metadata":{},"sourceType":"module"}
