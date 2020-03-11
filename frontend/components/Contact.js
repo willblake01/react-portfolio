@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactHeader from './ReactHeader';
+// import ReactHeader from './ReactHeader';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
@@ -8,7 +8,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className='masthead'>
-        <ReactHeader />
+        {/* <ReactHeader /> */}
         <Navbar />
         <div id='main-container' className='container'>
           <section className='main-section'>

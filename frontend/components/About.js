@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactHeader from './ReactHeader';
+// import ReactHeader from './ReactHeader';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
@@ -9,14 +9,13 @@ class About extends React.Component {
   render() {
     return (
 			<div className='masthead'>
-				<ReactHeader />
+				{/* <ReactHeader /> */}
 				<Navbar />
 				<div id='main-container' className='container'>
 					<section className='main-section'>
 					<h1>About Me</h1>
 					<ProfilePic />
-					<p className='bio'>	William Blake is a Web Developer with 12 years of experience in Business
-					Administration. He was born and raised in Austin, TX but enjoys traveling and the great
+					<p className='bio'>	William Blake is a business school graduate with 3 years of web development experience. He was born and raised in Austin, TX but enjoys traveling and the great
 					diversity of the United States. He holds a Full-Stack Web Developer certification from The
 					University of Texas and received a BBA in Finance from Texas State University in 2006. He
 					most enjoyed his time working for an Entrepreneur running two web stores, which furthered
@@ -31,10 +30,10 @@ class About extends React.Component {
 					Spanish, running marathons, and trying not to fall down on the soccer field. He is currently
 					working on coding a website to showcase his many hobbies. You can reach him at
 					willblakebooking@gmail.com or on Twitter at @trill_will.</p>
-					<Footer />
 					</section>
 					<Sidebar />
 				</div>
+				<Footer />
 			</div>
     );
   }

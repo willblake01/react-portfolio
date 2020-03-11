@@ -197,10 +197,9 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ReactHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ReactHeader */ "./components/ReactHeader.js");
-/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
-/* harmony import */ var _Sidebar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sidebar */ "./components/Sidebar.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
+/* harmony import */ var _Sidebar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Sidebar */ "./components/Sidebar.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 var _jsxFileName = "/Users/williamblake/Desktop/react-portfolio/frontend/components/Portfolio.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -221,7 +220,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-
+ // import ReactHeader from './ReactHeader';
 
 
 
@@ -248,13 +247,7 @@ function (_React$Component) {
           lineNumber: 9
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ReactHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
@@ -312,13 +305,13 @@ function (_React$Component) {
           lineNumber: 19
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
         },
         __self: this
-      }, "Spectrum Trail Racing")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Spectrum Trail Racing"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -342,13 +335,13 @@ function (_React$Component) {
           lineNumber: 26
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 27
         },
         __self: this
-      }, "Range Front")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Range Front"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -372,13 +365,13 @@ function (_React$Component) {
           lineNumber: 33
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 34
         },
         __self: this
-      }, "BitBay")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "BitBay"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -402,13 +395,13 @@ function (_React$Component) {
           lineNumber: 40
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 41
         },
         __self: this
-      }, "Memory")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Memory"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -432,13 +425,13 @@ function (_React$Component) {
           lineNumber: 47
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 48
         },
         __self: this
-      }, "News Scraper")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "News Scraper"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -462,13 +455,13 @@ function (_React$Component) {
           lineNumber: 54
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 55
         },
         __self: this
-      }, "Burger Time")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Burger Time"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -492,13 +485,13 @@ function (_React$Component) {
           lineNumber: 61
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 62
         },
         __self: this
-      }, "Friend Finder")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Friend Finder"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -522,13 +515,13 @@ function (_React$Component) {
           lineNumber: 68
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 69
         },
         __self: this
-      }, "Bamazon")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Bamazon"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -552,13 +545,13 @@ function (_React$Component) {
           lineNumber: 75
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 76
         },
         __self: this
-      }, "LiriBot")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "LiriBot"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -582,13 +575,13 @@ function (_React$Component) {
           lineNumber: 82
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 83
         },
         __self: this
-      }, "Train Time")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Train Time"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -612,13 +605,13 @@ function (_React$Component) {
           lineNumber: 89
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 90
         },
         __self: this
-      }, "Trivia")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Trivia"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -642,13 +635,13 @@ function (_React$Component) {
           lineNumber: 96
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 97
         },
         __self: this
-      }, "Crystal Collector")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Crystal Collector"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "work",
         __source: {
           fileName: _jsxFileName,
@@ -672,19 +665,19 @@ function (_React$Component) {
           lineNumber: 103
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 104
         },
         __self: this
-      }, "Hangman")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Sidebar__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }, "Hangman"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Sidebar__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 109
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 111
@@ -698,94 +691,6 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Portfolio);
-
-/***/ }),
-
-/***/ "./components/ReactHeader.js":
-/*!***********************************!*\
-  !*** ./components/ReactHeader.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/williamblake/Desktop/react-portfolio/frontend/components/ReactHeader.js";
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-var ReactHeader =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(ReactHeader, _React$Component);
-
-  function ReactHeader() {
-    _classCallCheck(this, ReactHeader);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(ReactHeader).apply(this, arguments));
-  }
-
-  _createClass(ReactHeader, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "App",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-        className: "App-header",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://res.cloudinary.com/willblake01/image/upload/v1538510164/react-portfolio/logo.svg",
-        className: "App-logo",
-        alt: "logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-        className: "App-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        },
-        __self: this
-      }, "Welcome to My React Portfolio")));
-    }
-  }]);
-
-  return ReactHeader;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (ReactHeader);
 
 /***/ }),
 

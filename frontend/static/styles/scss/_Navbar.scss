@@ -2,7 +2,6 @@
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 185px 0 30px;
   overflow: auto;
   color: var(--navbar-footer-gray);
   background: var(--navbar-footer-gray);
@@ -27,18 +26,16 @@
 nav {
   float: right;
   margin-top: 25px;
-}
-
-nav a {
-  display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: var(--dark-gray);
-  text-decoration: none;
-  border-left: 1px solid var(--dark-gray);
-}
-
-nav a:first-child {
-  border-left: 0 none;
+  a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: var(--dark-gray);
+    text-decoration: none;
+    border-left: 1px solid var(--dark-gray);
+    :first-child {
+      border-left: 0 none;
+    }
+  }
 }
